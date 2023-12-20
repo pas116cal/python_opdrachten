@@ -4,6 +4,8 @@
 
 # Hier komt je code...
 
-my_list = ...
+my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
 
-print()
+aantal_t = my_string.count ('t')
+
+print(f"het aantal t in de tekst is: {aantal_t}")
